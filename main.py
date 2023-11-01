@@ -178,7 +178,6 @@ class Transacciones(Base):
         self.motivo = motivo
         self.tipo_pago = tipo_pago
 
-
 class NotasVuelos(Base):
     __tablename__ = 'NOTAS_VUELOS'
     id_notas_vuelos = Column(Integer, primary_key=True)

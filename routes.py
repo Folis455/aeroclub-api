@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from sqlalchemy.orm import sessionmaker
 from main import Session
-from modela.aeroclub import Usuarios, engine
+from models.aeroclub import Usuarios, engine
 from sqlalchemy import false
 from app import app
 
